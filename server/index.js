@@ -8,7 +8,7 @@ const viewsPath = path.join(clientPath,'/views')
 
 const app = express();
 
-app.set('views engine','ejs');
+app.set('view engine','ejs');
 app.set('views',viewsPath);
 
 app.get('/', function(req, res) {
